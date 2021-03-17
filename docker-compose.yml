@@ -1,0 +1,14 @@
+version: "3"
+services:
+  tor-node:
+    build: ./tor
+    restart: always
+    depends_on:
+      - api
+  api:
+    build: ./api
+    ports:
+      - 8080:8080
+    volumes:
+      - ./api/app:/home/app/
+    restart: always

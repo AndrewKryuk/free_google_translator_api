@@ -1,0 +1,14 @@
+{
+  "name": "free_translator_api",
+  "version": "1.0.0",
+  "description": "free translator api",
+  "author": "Andrey Kryuk <me@kryuk.pro>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "tor-request": "^3.1.0"
+  }
+}
