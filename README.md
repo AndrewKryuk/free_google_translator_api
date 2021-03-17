@@ -2,6 +2,10 @@
 While you are using API methods, your IP will be automatically refreshed every 30 seconds from the tor network.
 
 ### Quickstart
+**source** - source lang,
+**target** - target lang,
+**text** - text for translation
+
 http://localhost:8080/source/target/text
 
 ```
