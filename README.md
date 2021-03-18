@@ -1,12 +1,12 @@
 ## Google translate api for free with tor proxy on Docker
-While you are using API methods, your IP will be automatically refreshed every 30 seconds from the tor network.
+While you are using API methods, your IP will be automatically renewed every 30 seconds from the tor network.
 
 ### Quickstart
 **source** - source lang,
 **target** - target lang,
 **text** - text for translation
 
-http://localhost:8080/source/target/text
+GET http://localhost:8080/source/target/text
 
 ```
 docker-compose up 
